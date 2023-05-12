@@ -1,0 +1,37 @@
+.jumbotron-fluid
+{
+    background: #41f497;
+}
+
+#titular-novo-lembrete
+{
+    color: #41f497;
+}
+
+#titular-tarefas
+{
+    color:  #41f497;
+}
+textarea
+{
+    border: 1px solid #41dff4;
+
+}
+.recordatorio
+{
+    padding: 0.5em;
+    background-color: #41dff4;
+    color: white;
+
+}
+#buttomSave
+{
+    cursor: pointer;
+
+}
+
+#buttomDelete, .fa-times
+{
+    cursor: pointer;
+
+}

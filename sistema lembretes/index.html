@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+
+    <title>Lembretes</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+
+
+  </head>
+  <body>
+   
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-3" style="font-family: 'Rametto One, cursive;">Agenda de Lembretes</h1>
+    </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="titular-novo-lembrete">
+                    <h3><i class="fa fa-plus-square"></i> Novo Lembrete</h3>
+                    <label for="birthdaytime">Data / Horário :</label>
+                    <input type="datetime-local" id="Data-Horário" name="datetime-local">
+                </div>
+                 <br>
+
+
+            <div class="form-group text-center">
+              <textarea class="form-control" rows="5"
+              id="texto"></textarea>
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-danger
+                  form-control" id="buttomDelete"><i class="fa fa-times"
+                  aria-hidden="true"></i>  Delete</button>
+
+                </div>
+
+                <div class="col-md-6">
+                  <button type="button" class="btn btn-success 
+                  form-control" id="buttomSave"><i class="fa fa-save"
+                  aria-hidden="true"></i>  Save</button>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div id="error"></div>
+          </div>
+
+            <div class="col-md-6">
+                <div id="titular-tarefas">
+                    <h3><i class="fa fa-exclamation-circle"></i> Lista de Lembretes</h3>
+
+                <div id="recordatorios">
+                  <br>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!--Opocional javaScript -->
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>  
+
+
+  </body>
+  </html>
